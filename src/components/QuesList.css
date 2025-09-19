@@ -564,86 +564,102 @@
 }
 
 /* Dark Theme */
-[data-theme="dark"] .loading-container p {
-  color: #94a3b8;
+[data-theme="dark"] .loading-container p,
+.dark-theme .loading-container p {
+  color: #94a3b8 !important;
 }
 
-[data-theme="dark"] .progress-bar {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+[data-theme="dark"] .progress-bar,
+.dark-theme .progress-bar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-[data-theme="dark"] .progress-text {
-  color: #94a3b8;
+[data-theme="dark"] .progress-text,
+.dark-theme .progress-text {
+  color: #94a3b8 !important;
 }
 
-[data-theme="dark"] .timer-display {
-  background: #374151;
-  color: #d1d5db;
-  border: 1px solid #4b5563;
+[data-theme="dark"] .timer-display,
+.dark-theme .timer-display {
+  background: #374151 !important;
+  color: #d1d5db !important;
+  border: 1px solid #4b5563 !important;
 }
 
-[data-theme="dark"] .question-container {
-  background: #374151;
-  border: 1px solid #4b5563;
+[data-theme="dark"] .question-container,
+.dark-theme .question-container {
+  background: #374151 !important;
+  border: 1px solid #4b5563 !important;
 }
 
-[data-theme="dark"] .nav-btn {
-  background: rgba(255, 255, 255, 0.05);
-  color: #d1d5db;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+[data-theme="dark"] .nav-btn,
+.dark-theme .nav-btn {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #d1d5db !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-[data-theme="dark"] .nav-btn:hover:not(:disabled) {
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  color: white;
-  border-color: #6366f1;
+[data-theme="dark"] .nav-btn:hover:not(:disabled),
+.dark-theme .nav-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+  color: white !important;
+  border-color: #6366f1 !important;
 }
 
-[data-theme="dark"] .results-card {
-  background: rgba(15, 23, 42, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+[data-theme="dark"] .results-card,
+.dark-theme .results-card {
+  background: rgba(15, 23, 42, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
   box-shadow: 
     0 8px 32px rgba(0, 0, 0, 0.3),
     0 2px 8px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
-[data-theme="dark"] .results-header h2 {
-  color: #f1f5f9;
+[data-theme="dark"] .results-header h2,
+.dark-theme .results-header h2 {
+  color: #f1f5f9 !important;
 }
 
-[data-theme="dark"] .score-total {
-  color: #94a3b8;
+[data-theme="dark"] .score-total,
+.dark-theme .score-total {
+  color: #94a3b8 !important;
 }
 
-[data-theme="dark"] .stat-item {
-  background: #1f2937;
-  border: 1px solid #374151;
+[data-theme="dark"] .stat-item,
+.dark-theme .stat-item {
+  background: #1f2937 !important;
+  border: 1px solid #374151 !important;
 }
 
-[data-theme="dark"] .stat-icon {
-  background: #374151;
-  border: 1px solid #4b5563;
+[data-theme="dark"] .stat-icon,
+.dark-theme .stat-icon {
+  background: #374151 !important;
+  border: 1px solid #4b5563 !important;
 }
 
-[data-theme="dark"] .stat-value {
-  color: #f1f5f9;
+[data-theme="dark"] .stat-value,
+.dark-theme .stat-value {
+  color: #f1f5f9 !important;
 }
 
-[data-theme="dark"] .stat-label {
-  color: #94a3b8;
+[data-theme="dark"] .stat-label,
+.dark-theme .stat-label {
+  color: #94a3b8 !important;
 }
 
-[data-theme="dark"] .btn-secondary {
-  background: rgba(255, 255, 255, 0.05);
-  color: #d1d5db;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+[data-theme="dark"] .btn-secondary,
+.dark-theme .btn-secondary {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #d1d5db !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-[data-theme="dark"] .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #f1f5f9;
-  border-color: rgba(99, 102, 241, 0.3);
+[data-theme="dark"] .btn-secondary:hover,
+.dark-theme .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #f1f5f9 !important;
+  border-color: rgba(99, 102, 241, 0.3) !important;
 }
 

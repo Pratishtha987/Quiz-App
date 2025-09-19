@@ -6,7 +6,6 @@ const ThemeToggle = () => {
   const { isDark, toggleTheme } = useTheme();
 
   const handleToggle = () => {
-    console.log('Theme toggle clicked, current theme:', isDark ? 'dark' : 'light');
     toggleTheme();
   };
 

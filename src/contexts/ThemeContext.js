@@ -39,12 +39,10 @@ export const ThemeProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    console.log('Theme changed to:', isDark ? 'dark' : 'light');
     localStorage.setItem('theme', JSON.stringify(isDark));
     document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
     // Also add a class to body for additional theme support
     document.body.className = isDark ? 'dark-theme' : 'light-theme';
-    console.log('Document theme attribute:', document.documentElement.getAttribute('data-theme'));
   }, [isDark]);
 
   // Apply theme on initial load
@@ -58,7 +56,6 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   const toggleTheme = () => {
-    console.log('Toggling theme from', isDark, 'to', !isDark);
     setIsDark(!isDark);
   };
 
