@@ -20,13 +20,24 @@
 
 /* Dark theme styles */
 [data-theme="dark"] .App {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  color: #e0e0e0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+  color: #e0e0e0 !important;
 }
 
 [data-theme="dark"] body {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  color: #e0e0e0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+  color: #e0e0e0 !important;
+}
+
+/* Additional dark theme support */
+.dark-theme .App {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-theme body {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+  color: #e0e0e0 !important;
 }
 
 /* Global button styles */
